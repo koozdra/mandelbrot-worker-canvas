@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)"></script>
+    <script src="app.js"></script>
+  </head>
+  <body onload="init()">
+    <canvas id="canvas" width="320px" height="240px" style="border: 1px solid;"></canvas>
+    <div>
+      <div>
+        <strong>z</strong>: zoom in
+      </div>
+      <div>
+        <strong>Z</strong>: zoom out
+      </div>
+      <div>
+        <strong>c</strong>: center
+      </div>
+      <div>
+        <strong>[</strong>: less iterations
+      </div>
+      <div>
+        <strong>]</strong>: more iterations
+      </div>
+      <div>
+        <strong>1</strong>: generate image
+      </div>
+      <div>
+        <strong>d</strong>: dump image to link to download
+      </div>
+
+      <a href="#" id="linkDownloadImage">empty</a>
+    </div>
+    <div class="imageOutput"></div>
+  </body>
+</html>
